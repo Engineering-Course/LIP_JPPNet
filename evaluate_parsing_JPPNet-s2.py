@@ -17,8 +17,8 @@ from LIP_model import *
 
 N_CLASSES = 20
 INPUT_SIZE = (384, 384)
-DATA_DIRECTORY = './datasets/lip'
-DATA_LIST_PATH = './datasets/lip/list/val.txt'
+DATA_DIRECTORY = './datasets/examples'
+DATA_LIST_PATH = './datasets/examples/list/val.txt'
 NUM_STEPS = 6 # Number of images in the validation set.
 RESTORE_FROM = './checkpoint/JPPNet-s2'
 OUTPUT_DIR = './output/parsing/val'

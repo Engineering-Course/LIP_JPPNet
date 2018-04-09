@@ -38,9 +38,22 @@ The SSL is trained and evaluated on our [LIP dataset](http://www.sysu-hcp.net/li
 
 ### Pre-trained models
 
-Coming soon!
+We have released our trained models of JPPNet on LIP dataset at [google drive](https://drive.google.com/open?id=1BFVXgeln-bek8TCbRjN6utPAgRE0LJZg).
 
 
-### Train and test
 
-Coming soon!
+### Inference
+1. Download the pre-trained model and store in $HOME/checkpoint.
+2. Prepare the images and store in $HOME/datasets.
+3. Run evaluate_pose_JPPNet-s2.py for pose estimation and evaluate_parsing_JPPNet-s2.py for human parsing.
+4. The results are saved in $HOME/output
+
+### Training
+1. Download the pre-trained model and store in $HOME/checkpoint.
+2. Download LIP dataset or prepare your own data and store in $HOME/datasets.
+3. For LIP dataset, we have provided images, labels, lists and the left-right flipping labels (labels_rev) for data augmentation. 
+4. Run train_JPPNet-s2.py to train the JPPNet with two refinement stages.
+5. Use evaluate_pose_JPPNet-s2.py and evaluate_parsing_JPPNet-s2.py to generate the results or evaluate the trained models.
+6. Note that the LIPReader class is only suit for labels in LIP for the left-right flipping augmentation. If you want to train on other datasets with different labels, you may have to re-write an image reader class.
+
+
