@@ -51,7 +51,7 @@ We have released our trained models of JPPNet on LIP dataset at [google drive](h
 ### Training
 1. Download the pre-trained model and store in $HOME/checkpoint.
 2. Download LIP dataset or prepare your own data and store in $HOME/datasets.
-3. For LIP dataset, we have provided images, labels, lists and the left-right flipping labels (labels_rev) for data augmentation. 
+3. For LIP dataset, we have provided images, parsing labels, lists and the left-right flipping labels (labels_rev) for data augmentation. You need to generate the heatmaps of pose labels. We have provided a script for reference.
 4. Run train_JPPNet-s2.py to train the JPPNet with two refinement stages.
 5. Use evaluate_pose_JPPNet-s2.py and evaluate_parsing_JPPNet-s2.py to generate the results or evaluate the trained models.
 6. Note that the LIPReader class is only suit for labels in LIP for the left-right flipping augmentation. If you want to train on other datasets with different labels, you may have to re-write an image reader class.
