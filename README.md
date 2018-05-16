@@ -38,7 +38,7 @@ The SSL is trained and evaluated on our [LIP dataset](http://www.sysu-hcp.net/li
 
 ### Pre-trained models
 
-We have released our trained models of JPPNet on LIP dataset at [google drive](https://drive.google.com/open?id=1BFVXgeln-bek8TCbRjN6utPAgRE0LJZg).
+We have released our trained models of JPPNet on LIP dataset at [google drive](https://drive.google.com/open?id=1BFVXgeln-bek8TCbRjN6utPAgRE0LJZg) and [baidu drive](https://pan.baidu.com/s/1hQvg1TMIt0JA0yMfjyzQgQ).
 
 
 
