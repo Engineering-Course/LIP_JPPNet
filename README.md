@@ -12,24 +12,6 @@ This distribution provides a publicly available implementation for the key model
 
 We simplify the network to solve human parsing by exploring a novel self-supervised structure-sensitive learning approach, which imposes human pose structures into the parsing results without resorting to extra supervision. There is also a public implementation of this self-supervised structure-sensitive JPPNet ([SS-JPPNet](https://github.com/Engineering-Course/LIP_SSL)).
 
-Please consult and consider citing the following papers:
-
-    @article{liang2018look,
-      title={Look into Person: Joint Body Parsing \& Pose Estimation Network and a New Benchmark},
-      author={Liang, Xiaodan and Gong, Ke and Shen, Xiaohui and Lin, Liang},
-      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-      year={2018},
-      publisher={IEEE}
-    }
-
-    @InProceedings{Gong_2017_CVPR,
-      author = {Gong, Ke and Liang, Xiaodan and Zhang, Dongyu and Shen, Xiaohui and Lin, Liang},
-      title = {Look Into Person: Self-Supervised Structure-Sensitive Learning and a New Benchmark for Human Parsing},
-      booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-      month = {July},
-      year = {2017}
-    }
-
 
 ### Look into People (LIP) Dataset
 
@@ -56,4 +38,22 @@ We have released our trained models of JPPNet on LIP dataset at [google drive](h
 5. Use evaluate_pose_JPPNet-s2.py and evaluate_parsing_JPPNet-s2.py to generate the results or evaluate the trained models.
 6. Note that the LIPReader class is only suit for labels in LIP for the left-right flipping augmentation. If you want to train on other datasets with different labels, you may have to re-write an image reader class.
 
+## Citation
+If you use this code for your research, please cite our papers.
+```
+@article{liang2018look,
+  title={Look into Person: Joint Body Parsing \& Pose Estimation Network and a New Benchmark},
+  author={Liang, Xiaodan and Gong, Ke and Shen, Xiaohui and Lin, Liang},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2018},
+  publisher={IEEE}
+}
 
+@InProceedings{Gong_2017_CVPR,
+  author = {Gong, Ke and Liang, Xiaodan and Zhang, Dongyu and Shen, Xiaohui and Lin, Liang},
+  title = {Look Into Person: Self-Supervised Structure-Sensitive Learning and a New Benchmark for Human Parsing},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {July},
+  year = {2017}
+}
+```
