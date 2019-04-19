@@ -24,6 +24,7 @@ We have released our trained models of JPPNet on LIP dataset at [google drive](h
 
 
 
+
 ### Inference
 1. Download the pre-trained model and store in $HOME/checkpoint.
 2. Prepare the images and store in $HOME/datasets.
@@ -57,3 +58,9 @@ If you use this code for your research, please cite our papers.
   year = {2017}
 }
 ```
+
+
+## Related work
++ Self-supervised Structure-sensitive Learning [SSL](https://github.com/Engineering-Course/LIP_SSL)
++ Instance-level Human Parsing via Part Grouping Network [PGN](https://github.com/Engineering-Course/CIHP_PGN)
++ Graphonomy: Universal Human Parsing via Graph Transfer Learning [Graphonomy](https://github.com/Gaoyiminggithub/Graphonomy)
