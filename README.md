@@ -15,7 +15,7 @@ We simplify the network to solve human parsing by exploring a novel self-supervi
 
 ### Look into People (LIP) Dataset
 
-The SSL is trained and evaluated on our [LIP dataset](http://www.sysu-hcp.net/lip) for human parsing.  Please check it for more model details. The dataset is also available at [google drive](https://drive.google.com/drive/folders/1ZjNrTb7T_SsOdck76qDcd5OHkFEU0C6Q?usp=sharing) and [baidu drive](http://pan.baidu.com/s/1nvqmZBN).
+The SSL is trained and evaluated on our [LIP dataset](http://www.sysu-hcp.net/lip) for human parsing.  Please check it for more model details. The dataset is also available at [google drive](https://drive.google.com/drive/folders/0BzvH3bSnp3E9ZW9paE9kdkJtM3M?resourcekey=0-vgKJX42GVFaAwjhEWAncjQ&usp=sharing) and [baidu drive](http://pan.baidu.com/s/1nvqmZBN).
 
 
 ### Pre-trained models
